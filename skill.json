@@ -1,0 +1,26 @@
+{
+  "name": "genpark-data-matrix-svd-pca-dimensionality-reducer-skill",
+  "version": "1.0.0",
+  "description": "Zero-dependency Power Iteration PCA dimensionality reducer projecting high-dimensional feature vectors into principal component representations.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "pca",
+    "dimensionality-reduction",
+    "svd",
+    "power-iteration",
+    "unsupervised-learning",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "fit_transform",
+      "description": "Fit PCA on data matrix and project to k components."
+    },
+    {
+      "name": "run_benchmark_pca_reducer",
+      "description": "Run PCA reducer benchmark suite."
+    }
+  ]
+}
